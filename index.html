@@ -1,37 +1,28 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: default
+title: Snoopaloop
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+{% for post in paginator.posts %}
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.date | date_to_string }}</p>
+  <p>{{ post.content | strip_html | truncatewords: 75 }}</p>
+  <p><a href="{{ post.url }}">Read more...</a></p>
+{% endfor %}
 
-    <title>Snoopaloop.github.com by snoopaloop</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Snoopaloop.github.com</h1>
-        <h2>a blog thing?</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/snoopaloop" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h1>Me</h1>
-
-<p>Gonna put some stuff here</p>
-      </section>
-    </div>
-
-    
-  </body>
-</html>
+<div class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/index.html" title="Previous Page">&laquo; Previous</a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+      {% endif %}
+    {% endif %}
+  </span>
+  <span class="next">
+    {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
+    {% endif %}
+  </span>
+</div>

@@ -1,0 +1,25 @@
+---
+comments: true
+date: 2010-06-02 15:13:16
+layout: post
+slug: my-new-job
+title: My new job
+wordpress_id: 8
+categories:
+- Personal
+tags:
+- the netcircle
+- work
+---
+
+I was recently hired by a fantastic company called The NetCircle. I'll be doing development there on one of the web applications and am extremely satisfied already.
+
+The company develops community driven websites and has some really fantastic developers working there, who are really active in the development community. I'll be working a lot with the Symfony framework, which is great news for me as I've been wanting to delve more deeply into it and really get some experience working with it.
+
+The only downside is the move to Shanghai. I know, I know, what a terrible thing to have to move to Shanghai, with all the fun and excitement. But I really miss the peace and quiet of Suzhou (and the far more affordable housing).
+
+I'm going to throw some neat links here about the new company:
+
+[The Netcircle website](http://www.thenetcircle.com/)
+
+[Some images of the office](http://www.thenetcircle.com/2009/07/27/tnc-hq-photos-2nd-try/) (one of the coolest I have ever seen).

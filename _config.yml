@@ -1,0 +1,10 @@
+markdown: kramdown
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  toc_levels: 1..6
+  use_coderay: true
+    
+permalink: /:year/:month/:day/:title/
+pygments: true
+paginate: 3

@@ -1,0 +1,23 @@
+---
+comments: true
+date: 2010-06-02 14:09:03
+layout: post
+slug: new-blog
+title: New blog
+wordpress_id: 6
+categories:
+- Random Integer
+tags:
+- hello world
+- introduction
+---
+
+I've just set up this blog, so there really isn't anything here. I'll try and explain my reasoning behind this website.
+
+First, I am a web developer, and I don't really have my own website. That's a big no-no; I want a place I can discuss what I'm doing, new tech I've come across and other interesting tidbits of information. I also need a place to talk about what I've been doing for work/play and projects I've done.
+
+In the future, I might even use this website as a place to highlight my skills and services that I could provide, we will see how it goes.
+
+Finally, I want to use this website to communicate all of the interesting things I may or may not do or come across while living in one of the most interesting countries in the world, China.
+
+So, for about the 5th time, here actually goes my blog/website...
