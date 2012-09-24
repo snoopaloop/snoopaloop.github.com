@@ -13,7 +13,7 @@ categories:
 
 After a few failed starts, over the last few weeks I've been making some actual progress on a real, working PHP extension for the Riak protocol buffer interface. When I first started working on it (quite some time ago), I had no experience working with PHP extensions and was exceptionally rusty with c/c++. 
 
-After getting frustrated time and again, I had taken a break (read: given up) for the time being on writing this extension. However, at work I found some issues with a particular extension we were working with, and decided that I would give another shot at writing a much simpler extension. The result is a simple [WebDAV extension]("http://github.com/tnc/TncWebdav") that we us internally to move some images around.
+After getting frustrated time and again, I had taken a break (read: given up) for the time being on writing this extension. However, at work I found some issues with a particular extension we were working with, and decided that I would give another shot at writing a much simpler extension. The result is a simple [WebDAV extension]("http://github.com/tnc/TncWebdav") that we use internally to move some images around.
 
 I found out that some problems that had plagued me before were actually quite simple. For example, if you use:
 
