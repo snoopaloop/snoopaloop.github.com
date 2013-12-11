@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 
 ## Creating a Bare Vagrant Box with CentOS 6.4
