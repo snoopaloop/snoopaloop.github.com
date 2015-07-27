@@ -1,3 +1,9 @@
+---
+comments: false
+published: true
+layout: post
+---
+
 ### Because Why Not?
 
 A one-line Erlang fizzbuzz:
